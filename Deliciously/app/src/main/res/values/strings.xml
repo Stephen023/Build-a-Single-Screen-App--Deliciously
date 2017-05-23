@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Deliciously</string>
+    <string name="company_name">deliciously!</string>
+    <string name="c">Contact:</string>
+    <string name="address">Hungary, Budapest</string>string>
+    <string name="summary">Deliciously is a place that connect food enthusiast and delicious food. In our kitchen we create food as you wish. We cook from classic recipes around the world.</string>
+    <string name="email">booking@deliciously.com</string>
+    <string name="opening_weekdays">"Weekdays: 09:00 "-" 00:00</string>
+    <style name="opening_weekend">Weekend: 10:00 "-" 02:00"</style>
+    <string name="website">Deliciously.com</string>
+</resources>
+

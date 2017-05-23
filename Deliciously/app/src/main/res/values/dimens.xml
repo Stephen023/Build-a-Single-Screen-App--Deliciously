@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="font_size">16sp</dimen>
+    <dimen name="marginLeft_80dp">80dp</dimen>
+    <dimen name="marginStart_80dp">80dp</dimen>
+    <dimen name="marginLeft_105dp">105dp</dimen>
+    <dimen name="marginStart_105dp">105dp</dimen>
+    <dimen name="marginLeft_15dp">15dp</dimen>
+    <dimen name="marginRight_15dp">15dp</dimen>
+    <dimen name="marginTop_5dp">5dp</dimen>
+    <dimen name="marginTop_8dp">8dp</dimen>
+    <dimen name="marginBottom_5dp">5dp</dimen>
+    <dimen name="marginBottom_8dp">8dp</dimen>
+    <dimen name="paddingLeft_10dp">10dp</dimen>
+    <dimen name="paddingRight_10dp">10dp</dimen>
+    <dimen name="paddingRight_2dp">2dp</dimen>
+    <dimen name="paddingEnd">10dp</dimen>
+    <dimen name="paddingEnd_2dp">2dp</dimen>
+    <dimen name="paddingStart">10dp</dimen>
+    <dimen name="textSize_17sp">17sp</dimen>
+    <dimen name="textSize_19sp">19sp</dimen>
+    <dimen name="textSize_22sp">22sp</dimen>
+</resources>

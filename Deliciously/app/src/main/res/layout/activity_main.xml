@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rustic_images_2"
+    tools:context="com.example.android.deliciously.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.deliciously.MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/header_style" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            style="@style/image_style"
+            android:src="@drawable/food_2" />
+
+        <TextView
+            android:id="@+id/textView_c"
+            style="@style/main_text" />
+
+        <View style="@style/view_style" />
+
+        <TextView
+            android:id="@+id/textView_b"
+            style="@style/contact_text" />
+
+
+        <TextView
+            android:id="@+id/text_address"
+            style="@style/address_style" />
+
+
+        <TextView
+            android:id="@+id/text_email"
+            style="@style/email_style" />
+
+
+        <TextView
+            android:id="@+id/text_opening"
+            style="@style/opening_weekdays_style" />
+
+        <TextView
+            android:id="@+id/text_opening2"
+            style="@style/opening_weekend_style" />
+
+        <View style="@style/view_style" />
+
+        <TextView
+            android:id="@+id/textView_d"
+            style="@style/deliciously_style" />
+
+    </LinearLayout>
+</ScrollView>

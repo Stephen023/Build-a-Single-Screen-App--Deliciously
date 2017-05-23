@@ -1,0 +1,160 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0033ff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for image -->
+
+    <style name="image_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom_5dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for header -->
+
+    <style name="header_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTop_5dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">@string/company_name</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/textSize_22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for main text-->
+
+    <style name="main_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTop_5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:paddingEnd">@dimen/paddingEnd_2dp</item>
+        <item name="android:paddingLeft">@dimen/paddingLeft_10dp</item>
+        <item name="android:paddingRight">@dimen/paddingRight_2dp</item>
+        <item name="android:paddingStart">@dimen/paddingStart</item>
+        <item name="android:text">@string/summary</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/textSize_17sp</item>
+    </style>
+
+    <!-- Style for View-->
+
+    <style name="view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft_15dp</item>
+        <item name="android:layout_marginRight">@dimen/marginRight_15dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <!-- Style for "Contact" text-->
+
+    <style name="contact_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTop_8dp</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom_5dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:gravity">start</item>
+        <item name="android:paddingLeft">@dimen/paddingLeft_10dp</item>
+        <item name="android:paddingRight">@dimen/paddingRight_10dp</item>
+        <item name="android:text">@string/c</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/textSize_19sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for "Address" text-->
+
+    <style name="address_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft_80dp</item>
+        <item name="android:layout_marginStart">@dimen/marginStart_80dp</item>
+        <item name="android:drawableLeft">@drawable/ic_add_location_black_24px</item>
+        <item name="android:drawableStart">@drawable/ic_add_location_black_24px</item>
+        <item name="android:paddingEnd">@dimen/paddingEnd</item>
+        <item name="android:paddingStart">@dimen/paddingStart</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:text">@string/address</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/font_size</item>
+    </style>
+
+    <!-- Style for "Email" text-->
+
+    <style name="email_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft_80dp</item>
+        <item name="android:layout_marginStart">@dimen/marginStart_80dp</item>
+        <item name="android:drawableLeft">@drawable/ic_email_black_24px</item>
+        <item name="android:drawableStart">@drawable/ic_email_black_24px</item>
+        <item name="android:paddingEnd">@dimen/paddingEnd</item>
+        <item name="android:paddingStart">@dimen/paddingStart</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:text">@string/email</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/font_size</item>
+    </style>
+
+    <!-- Style for "Opening weekdays" text-->
+
+    <style name="opening_weekdays_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>"
+        <item name="android:layout_marginLeft">@dimen/marginLeft_80dp</item>
+        <item name="android:layout_marginStart">@dimen/marginStart_80dp</item>
+        <item name="android:drawableLeft">@drawable/ic_schedule_black_24px</item>
+        <item name="android:drawableStart">@drawable/ic_schedule_black_24px</item>
+        <item name="android:paddingEnd">@dimen/paddingEnd</item>
+        <item name="android:paddingStart">@dimen/paddingStart</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:text">@string/opening_weekdays</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/font_size</item>
+    </style>
+
+    <!-- Style for "Opening weekend" text-->
+
+    <style name="opening_weekend_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>"
+        <item name="android:layout_marginBottom">@dimen/marginBottom_8dp</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft_105dp</item>
+        <item name="android:layout_marginStart">@dimen/marginStart_105dp</item>
+        <item name="android:paddingEnd">@dimen/paddingEnd</item>
+        <item name="android:paddingStart">@dimen/paddingStart</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:text">@string/opening_weekdays</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/font_size</item>
+    </style>
+
+
+    <!-- Style for "Deliciously" text-->
+
+    <style name="deliciously_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTop_8dp</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom_8dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:paddingEnd">@dimen/paddingEnd</item>
+        <item name="android:paddingStart">@dimen/paddingStart</item>
+        <item name="android:text">@string/website</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/textSize_17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
